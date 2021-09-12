@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning HTML, CSS, JS...😁
 - 👯 Estou procurando colaborar no ... Full-stack
-- 🤔 Estou procurando ajuda com ... Desenvolvimento web😄
+- 🤔 Estou procurando ajuda com ... Desenvolvimento web and software😄
 - 📫 How to reach me: ... alissondavidsouza@hotmail.com👈
 
  <div>
