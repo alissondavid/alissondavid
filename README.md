@@ -27,3 +27,28 @@
   <a href="https://www.linkedin.com/in/alisson-nascimento-49a190180/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 <div/>
   <!--![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)-->
+ nome : Gerar dados
+
+em :
+  cronograma : # executar a cada 12 horas
+    - cron : " * * / 12 * * * "
+  workflow_dispatch :
+
+empregos :
+  construir :
+    nome : Trabalhos para atualizar dados
+    roda em : ubuntu-mais recente
+    passos :
+      # Animação de cobra
+      - usa : Platane / snk @ master
+        id : snake-gif
+        com :
+          github_user_name : Edson-Martim
+          svg_out_path : dist / github-Contribution-grid-snake.svg
+
+      - usa : crazy-max/ghaction-github-pages@v2.1.3
+        com :
+          target_branch : output
+          build_dir : dist
+        env :
+          GITHUB_TOKEN : $ {{secrets.GITHUB_TOKEN}}
